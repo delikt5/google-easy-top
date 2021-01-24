@@ -1,0 +1,19 @@
+/* resets & overrides
+-----------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {border: none;}
+
+/* links & lists
+-----------------------------------------------*/
+li {list-style: none;}
+a {text-decoration: none;}
+
+/* layout & styles
+-----------------------------------------------*/
+:root {
+	
+}
