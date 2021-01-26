@@ -9,34 +9,22 @@
 <body>
     <div class="wrapper">
         <header>
-            <nav>
-                <div class="header-links">
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
-                </div>
-                <div class="menu">
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                    <div class="square"></div>
-                </div>
-                <button class="sign-in-btn">Sign in</button>
-            </nav>
+            <ul class="navigation-layout">
+                <li><a href="#" class="navigation-link">Gmail</a></li>
+                <li><a href="#" class="navigation-link">Images</a></li>
+                <li><button class="sign-in-btn">Sign in</button></li>
+            </ul>
         </header>
 
         <main>
-            <img src="images/logo.png" alt="logo" class="logo">
-            <form action="">
+            <img src="images/logo.png" alt="logo" class="google-logo">
+            <form action="" class="search-form">
                 <input type="text" class="search-bar">
-                <button class="search-btn">Google Search</button>
-                <button class="search-btn">I'm Feeling Lucky</button>
-                <p>Google offered in: <a href="#" class="lang">Dansk</a> <a href="#" class="lang">Føroyskt</a></p>
+                <div class="search-buttons">
+                    <button class="search-btn">Google Search</button>
+                    <button class="search-btn">I'm Feeling Lucky</button>
+                </div>
+                <p class="search-text">Google offered in: <a href="#" class="search-lang">Dansk</a> <a href="#" class="search-lang">Føroyskt</a></p>
             </form>
         </main>
 

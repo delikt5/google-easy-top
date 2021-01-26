@@ -15,5 +15,91 @@ a {text-decoration: none;}
 /* layout & styles
 -----------------------------------------------*/
 :root {
-	
+	font-family: Arial, sans-serif;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100vh;
+}
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+.navigation-layout {
+	display: flex;
+	align-items: center;
+	margin: 15px;
+}
+.navigation-link {
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.87);
+	padding: 10px;
+}
+.navigation-link:hover {
+	text-decoration: underline;
+}
+.sign-in-btn {
+	padding: 7px 14px;
+	margin:0 20px;
+	color: #fff;
+	background-color: #4285f4;
+	border: none;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 13px;
+}
+main {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.google-logo {
+	margin-bottom: 30px;
+}
+.search-form {
+	display: flex;
+	flex-direction: column;
+}
+.search-bar {
+	width: 500px;
+	height: 45px;
+	border-radius: 100px;
+	border: 1px solid lightgrey;
+	margin-bottom: 30px;
+}
+.search-bar:hover {
+	box-shadow:0 0 5px lightgray;
+}
+.search-buttons {
+	align-self: center;
+	margin-bottom: 35px;
+}
+.search-btn {
+	color: #3c4043;
+	border-radius: 4px;
+	background-color: #f8f9fa;
+	border: 1px solid #f8f9fa;
+	font-size: 14px;
+	padding: 10px 16px;
+	margin: 4px;
+}
+.search-btn:hover {
+	border: 1px solid lightgray;
+	box-shadow: 0 0 3px lightgray;
+}
+.search-text {
+	align-self: center;
+	font-size: small;
+	color: #202124;
+}
+.search-lang {
+	color: #1a0dab;
+	margin: 3px;
+}
+footer {
+
 }
