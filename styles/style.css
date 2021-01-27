@@ -102,4 +102,34 @@ main {
 }
 footer {
 	margin-top: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background: #f2f2f2;
+	font-size: 14px;
+}
+.upper-footer {
+	color: rgba(0, 0, 0, 0.54);
+	padding: 15px 30px;
+	border-top: 1px solid #dadce0;
+	border-bottom: 1px solid #dadce0;
+}
+.lower-footer {
+	display: flex;
+	justify-content: space-between;
+}
+.lower-footer-left {
+	display: flex;
+	padding:15px 0 15px 23px;
+}
+.lower-footer-right{
+	display: flex;
+	padding: 15px 30px 15px 0;
+}
+.lower-footer-link {
+	padding: 0 7px;
+	color: #70757a;
+}
+.lower-footer-link:hover {
+	text-decoration: underline;
 }
